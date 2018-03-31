@@ -7,7 +7,7 @@ from random import randint
 import os
 import re
 import mysql_lib
-from Model import DA
+from ConnectDB import DA
 from NLog import Log
 import json
 
