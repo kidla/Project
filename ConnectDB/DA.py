@@ -17,6 +17,7 @@ def __getConnStr():
 
     return ('Driver={};Server={};Database={};uid={};pwd={}').format(t,s,d,u,p)
 
+
 def ExecuteSP(exeCmd,params):
     '''Return result for defining the data(execute command)'''
     connection = pypyodbc.connect(__getConnStr()) 
